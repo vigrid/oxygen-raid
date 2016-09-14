@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<resource_file type="PackedScene" subresource_count="7" version="2.0" version_name="Godot Engine v2.0.alpha.custom_build">
+	<ext_resource path="res://CommonGFX/dot_red.png" type="Texture" index="2"></ext_resource>
+	<ext_resource path="res://CommonGFX/shot_enemy.png" type="Texture" index="1"></ext_resource>
+	<ext_resource path="res://Objects/Bullets/Enemy/EnemyShoot.gd" type="Script" index="0"></ext_resource>
+	<resource type="CircleShape2D" path="local://1">
+		<real name="custom_solver_bias"> 0 </real>
+		<real name="radius"> 20 </real>
+
+	</resource>
+	<resource type="ColorRamp" path="local://2">
+		<real_array name="offsets" len="2"> 			0, 1 </real_array>
+		<color_array name="colors" len="2"> 			1, 1, 1, 1, 0, 0, 0, 1 </color_array>
+
+	</resource>
+	<resource type="ColorRamp" path="local://3">
+		<real_array name="offsets" len="2"> 			0, 1 </real_array>
+		<color_array name="colors" len="2"> 			1, 1, 1, 1, 0, 0, 0, 1 </color_array>
+
+	</resource>
+	<main_resource>
+		<dictionary name="_bundled" shared="false">
+			<string> "conn_count" </string>
+			<int> 0 </int>
+			<string> "conns" </string>
+			<int_array  len="0"> 				 </int_array>
+			<string> "names" </string>
+			<string_array  len="57">
+				<string> "Bullet" </string>
+				<string> "RigidBody2D" </string>
+				<string> "input/pickable" </string>
+				<string> "shapes/0/shape" </string>
+				<string> "shapes/0/transform" </string>
+				<string> "shapes/0/trigger" </string>
+				<string> "collision/layers" </string>
+				<string> "collision/mask" </string>
+				<string> "mode" </string>
+				<string> "mass" </string>
+				<string> "friction" </string>
+				<string> "bounce" </string>
+				<string> "gravity_scale" </string>
+				<string> "custom_integrator" </string>
+				<string> "continuous_cd" </string>
+				<string> "contacts_reported" </string>
+				<string> "contact_monitor" </string>
+				<string> "sleeping" </string>
+				<string> "can_sleep" </string>
+				<string> "velocity/linear" </string>
+				<string> "velocity/angular" </string>
+				<string> "damp_override/linear" </string>
+				<string> "damp_override/angular" </string>
+				<string> "script/script" </string>
+				<string> "__meta__" </string>
+				<string> "Particles2D" </string>
+				<string> "visibility/blend_mode" </string>
+				<string> "config/amount" </string>
+				<string> "config/lifetime" </string>
+				<string> "config/time_scale" </string>
+				<string> "config/preprocess" </string>
+				<string> "config/texture" </string>
+				<string> "params/direction" </string>
+				<string> "params/spread" </string>
+				<string> "params/linear_velocity" </string>
+				<string> "params/spin_velocity" </string>
+				<string> "params/orbit_velocity" </string>
+				<string> "params/gravity_direction" </string>
+				<string> "params/gravity_strength" </string>
+				<string> "params/radial_accel" </string>
+				<string> "params/tangential_accel" </string>
+				<string> "params/damping" </string>
+				<string> "params/initial_angle" </string>
+				<string> "params/initial_size" </string>
+				<string> "params/final_size" </string>
+				<string> "params/hue_variation" </string>
+				<string> "params/anim_speed_scale" </string>
+				<string> "params/anim_initial_pos" </string>
+				<string> "color/color_ramp" </string>
+				<string> "CollisionShape2D" </string>
+				<string> "visibility/visible" </string>
+				<string> "shape" </string>
+				<string> "trigger" </string>
+				<string> "_update_shape_index" </string>
+				<string> "Particles2D 2" </string>
+				<string> "config/half_extents" </string>
+				<string> "config/local_space" </string>
+			</string_array>
+			<string> "node_count" </string>
+			<int> 4 </int>
+			<string> "nodes" </string>
+			<int_array  len="176"> 				-1, -1, 1, 0, -1, 23, 2, 0, 3, 1, 4, 2, 5, 0, 6, 3, 7, 3, 8, 4, 9, 5, 10, 5, 11, 6, 12, 5, 13, 0, 14, 7, 15, 8, 16, 9, 17, 0, 18, 9, 19, 10, 20, 6, 21, 11, 22, 11, 23, 12, 24, 13, 0, 0, 0, 25, 25, -1, 23, 26, 14, 27, 15, 28, 16, 29, 17, 30, 5, 31, 18, 32, 6, 33, 19, 34, 6, 35, 6, 36, 6, 37, 6, 38, 6, 39, 6, 40, 6, 41, 6, 42, 6, 43, 5, 44, 20, 45, 6, 46, 5, 47, 6, 48, 21, 0, 0, 0, 49, 49, -1, 4, 50, 0, 51, 1, 52, 0, 53, 7, 0, 0, 0, 25, 54, -1, 24, 26, 14, 27, 22, 28, 17, 30, 17, 55, 23, 56, 0, 31, 24, 32, 25, 33, 25, 34, 26, 35, 6, 36, 6, 37, 6, 38, 27, 39, 6, 40, 6, 41, 6, 42, 6, 43, 28, 44, 29, 45, 6, 46, 5, 47, 6, 48, 30, 0 </int_array>
+			<string> "variants" </string>
+			<array  len="31" shared="false">
+				<bool> False </bool>
+				<resource  resource_type="Shape2D" path="local://1">  </resource>
+				<matrix32> 1, 0, 0, 1, 0, 0 </matrix32>
+				<int> 2 </int>
+				<int> 3 </int>
+				<real> 1 </real>
+				<real> 0 </real>
+				<int> 0 </int>
+				<int> 4 </int>
+				<bool> True </bool>
+				<vector2> 0, 0 </vector2>
+				<real> -1 </real>
+				<resource  external="0">  </resource>
+				<dictionary  shared="false">
+					<string> "__editor_plugin_screen__" </string>
+					<string> "Script" </string>
+					<string> "__editor_plugin_states__" </string>
+					<dictionary  shared="false">
+						<string> "2D" </string>
+						<dictionary  shared="false">
+							<string> "ofs" </string>
+							<vector2> -71.7298, -44.5479 </vector2>
+							<string> "snap_grid" </string>
+							<bool> False </bool>
+							<string> "snap_offset" </string>
+							<vector2> 0, 0 </vector2>
+							<string> "snap_pixel" </string>
+							<bool> False </bool>
+							<string> "snap_relative" </string>
+							<bool> False </bool>
+							<string> "snap_rotation" </string>
+							<bool> False </bool>
+							<string> "snap_rotation_offset" </string>
+							<real> 0 </real>
+							<string> "snap_rotation_step" </string>
+							<real> 0.261799 </real>
+							<string> "snap_show_grid" </string>
+							<bool> False </bool>
+							<string> "snap_step" </string>
+							<vector2> 10, 10 </vector2>
+							<string> "zoom" </string>
+							<real> 8.62201 </real>
+						</dictionary>
+						<string> "3D" </string>
+						<dictionary  shared="false">
+							<string> "ambient_light_color" </string>
+							<color> 0.15, 0.15, 0.15, 1 </color>
+							<string> "default_light" </string>
+							<bool> True </bool>
+							<string> "default_srgb" </string>
+							<bool> False </bool>
+							<string> "deflight_rot_x" </string>
+							<real> 0.942478 </real>
+							<string> "deflight_rot_y" </string>
+							<real> 0.628319 </real>
+							<string> "fov" </string>
+							<real> 45 </real>
+							<string> "show_grid" </string>
+							<bool> True </bool>
+							<string> "show_origin" </string>
+							<bool> True </bool>
+							<string> "viewport_mode" </string>
+							<int> 1 </int>
+							<string> "viewports" </string>
+							<array  len="4" shared="false">
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> True </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+								<dictionary  shared="false">
+									<string> "distance" </string>
+									<real> 4 </real>
+									<string> "listener" </string>
+									<bool> False </bool>
+									<string> "pos" </string>
+									<vector3> 0, 0, 0 </vector3>
+									<string> "use_environment" </string>
+									<bool> False </bool>
+									<string> "use_orthogonal" </string>
+									<bool> False </bool>
+									<string> "x_rot" </string>
+									<real> 0 </real>
+									<string> "y_rot" </string>
+									<real> 0 </real>
+								</dictionary>
+							</array>
+							<string> "zfar" </string>
+							<real> 500 </real>
+							<string> "znear" </string>
+							<real> 0.1 </real>
+						</dictionary>
+						<string> "Anim" </string>
+						<dictionary  shared="false">
+							<string> "visible" </string>
+							<bool> False </bool>
+						</dictionary>
+					</dictionary>
+					<string> "__editor_run_settings__" </string>
+					<dictionary  shared="false">
+						<string> "custom_args" </string>
+						<string> "-l $scene" </string>
+						<string> "run_mode" </string>
+						<int> 0 </int>
+					</dictionary>
+				</dictionary>
+				<int> 1 </int>
+				<int> 6 </int>
+				<real> 0.5 </real>
+				<real> 0.2 </real>
+				<resource  external="1">  </resource>
+				<real> 10 </real>
+				<real> 2 </real>
+				<resource  resource_type="ColorRamp" path="local://2">  </resource>
+				<int> 40 </int>
+				<vector2> 7, 7 </vector2>
+				<resource  external="2">  </resource>
+				<real> 180 </real>
+				<real> 100 </real>
+				<real> 9.8 </real>
+				<real> 3 </real>
+				<real> 0.4 </real>
+				<resource  resource_type="ColorRamp" path="local://3">  </resource>
+			</array>
+			<string> "version" </string>
+			<int> 1 </int>
+		</dictionary>
+
+	</main_resource>
+</resource_file>
